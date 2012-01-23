@@ -1,0 +1,3 @@
+require 'backtrack'
+
+Backtrack.install!

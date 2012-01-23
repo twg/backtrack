@@ -1,0 +1,23 @@
+= backtrack
+
+Backtrack is a "back" tracking system for Rails that allows to to save
+and restore the back-out state of forms.
+
+Add backtracking to your forms with the backtrack_fields method:
+
+    <%= backtrack_fields %>
+    
+Add a link to a page that goes to the previous entry in the backtracking
+table:
+
+    <%= link_to('Back', backtrack_url) %>
+
+Create a link that captures the backtracking state:
+
+    <%= link_to('Forward', some_path(backtrack_params)) %>
+    <%= link_to('Forward', some_path(backtrack_params(:other_id => other_id))) %>
+    
+== Copyright
+
+Copyright (c) 2012 Scott Tadman, The Working Group Inc. See LICENSE.txt for
+further details.
