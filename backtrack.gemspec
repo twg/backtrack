@@ -21,6 +21,13 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
+    "backtrack.gemspec",
+    "lib/backtrack.rb",
+    "lib/backtrack/extensions.rb",
+    "lib/backtrack/extensions/action_controller.rb",
+    "lib/backtrack/extensions/action_view.rb",
+    "rails/init.rb",
     "test/helper.rb",
     "test/test_backula.rb"
   ]
